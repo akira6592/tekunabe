@@ -20,34 +20,6 @@ no aaa new-model
 !
 !
 mmi polling-interval 60
-
-rt01#sh running-config
-Building configuration...
-
-
-Current configuration : 3388 bytes
-!
-! Last configuration change at 01:59:55 UTC Tue Oct 6 2020 by admin
-!
-version 15.8
-service timestamps debug datetime msec
-service timestamps log datetime msec
-no service password-encryption
-!
-hostname rt01
-!
-boot-start-marker
-boot-end-marker
-!
-!
-no logging console
-enable secret 5 xxx
-!
-no aaa new-model
-!
-!
-!
-mmi polling-interval 60
 no mmi auto-configure
 no mmi pvc
 mmi snmp-timeout 180
